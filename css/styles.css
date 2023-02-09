@@ -47,10 +47,6 @@
         left: 156px;
         top: 24px;
     }
-    .logo{display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px}
     /*---hover---*/
     .nav-link:hover,
     .nav-link:focus,
