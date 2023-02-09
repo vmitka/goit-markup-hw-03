@@ -81,6 +81,11 @@
     text-align: center;
     color: var(--hero-text-color);
     }
+    .main-title
+        {width: 1440px;
+        height: 600px;
+        left: -8px;
+        top: 85px;}
     .modal-btn {
     font-weight: 500;
     font-size: 16px;
