@@ -13,15 +13,16 @@
     .container
     {margin-left: 0;
     margin-right: 0;}
-    {
-    font-family: 'Roboto', sans-serif;
-    color: var(--primari-text-color);
-    background-color: #ffffff;
-    }
+    
+    font-family Roboto 
+    sans-serif
+    color var--primari-text-color
+    background-color #ffffff
+    
     h1,h2,h3, p{margin: 0;}
-    text-decoration:{ none;
-    }
-    ul {margin: 0;padding: 0;}
+    text-decoration none
+    
+    ul {margin: 0 ;padding: 0 ; }
     ul {
     list-style: none;
     }
@@ -64,6 +65,11 @@
     font-style: normal;
     color: inherit;
     }
+    .header{
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;}
     /*---hero---*/
     .hero {
     background: var(--secondari-text-color);
