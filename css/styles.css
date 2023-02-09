@@ -18,14 +18,6 @@
     sans-serif
     color var--primari-text-color
     background-color #ffffff
-    
-    h1,h2,h3, p{margin: 0;}
-    text-decoration none
-    
-    ul {margin: 0 ;padding: 0 ; }
-    ul {
-    list-style: none;
-    }
     /*---logo---*/
     .logo {
     font-family: var(--secondari-font);
@@ -42,6 +34,12 @@
     color: var(--withe-logo-color);
     }
     .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        
+        position: absolute;
         width: 115px;
         height: 24px;
         left: 156px;
