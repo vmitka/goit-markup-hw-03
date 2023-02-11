@@ -17,7 +17,7 @@
     font-family Roboto 
     sans-serif
     color var--primari-text-color
-    background-color #ffffff
+    background-color #2E2F42
     /*---logo---*/
     .logo {
     font-family: var(--secondari-font);
@@ -39,7 +39,7 @@
         align-items: flex-start;
         padding: 0px;
         
-        position: absolute;
+        
         width: 115px;
         height: 24px;
         left: 156px;
@@ -101,7 +101,7 @@
     
     color: var(--hero-text-color);
     background-color: var(--logo-hover-color);
-    }
+    }\negokaz\vscode-live-server-preview\raw\master\doc\img\preview.gif
     .modal-btn:hover,
     .modal-btn:focus {
     background: var(--hover-btn-color);
