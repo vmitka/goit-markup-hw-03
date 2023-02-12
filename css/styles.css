@@ -9,6 +9,7 @@
     --hover-btn-color: #404bbf;
     --footer-text-color: #e7e9fc;
     }
+    *{box-sizing: border-box;}
     body
     .container
     {margin-left: 0;
@@ -17,7 +18,7 @@
     font-family Roboto 
     sans-serif
     color var--primari-text-color
-    background-color #2E2F42
+    background-color #ffffff
     /*---logo---*/
     .logo {
     font-family: var(--secondari-font);
@@ -28,7 +29,7 @@
     color: var(--logo-hover-color);
     }
     .logo-dark {
-    color: var(--secondari-text-color);
+    color: var(--secondari-text-color) #2E2F42;
     }
     .logo-withe {
     color: var(--withe-logo-color);
@@ -40,6 +41,12 @@
         padding: 0px;
         
         
+        width: 115px;
+        height: 24px;
+        left: 156px;
+        top: 24px;
+    }
+    .logo{
         width: 115px;
         height: 24px;
         left: 156px;
@@ -77,35 +84,41 @@
     /*---hero---*/
     .hero {
     background: var(--secondari-text-color);
-    }
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+    text-align: center;}
     .main-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.11;
+    line-height: 60px;
     text-align: center;
     color: var(--hero-text-color);
     }
-    .main-title
-        {width: 1440px;
-        height: 600px;
-        left: -8px;
-        top: 85px;}
+    .main-title {
+            padding-top: 188px;
+            padding-right: 473px;
+            padding-bottom: 292px;
+            padding-left: 473px;
+        }
     .modal-btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    cursor: pointer;
-    font-family: inherit;
-    display: flex;
-    align-items: center;
-    
+        font-weight: 500 ;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        width: 169px;
+        height: 56px;
+        left: 636px;
+        top: 428px;
     color: var(--hero-text-color);
     background-color: var(--logo-hover-color);
     }\negokaz\vscode-live-server-preview\raw\master\doc\img\preview.gif
     .modal-btn:hover,
     .modal-btn:focus {
-    background: var(--hover-btn-color);
+    background: var(--hero-btn-color);
     }
+    
     /*------about------*/
     .about-title {
     font-weight: 500;
